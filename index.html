@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Trung cấp nghề Bỉm Sơn</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="lib/resetcss.css">
+  <link rel="stylesheet" href="lib/font awesome/all.min.css">
+  <link rel="stylesheet" href="lib/boostrap/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header id="header">
+    <div class="banner">
+      <img src="Image/banner1.jpg" alt="TCNBS Banner" id="banner-img">
+      <img src="Image/tcnbs-logo.jpg" alt="TCNBS Logo" class="logo">
+    </div>
+    <nav class="header-nav">
+      <div id="nav-content-collasp">  
+        <div>
+          <a href="index.html"><img src="Image/tcnbs-logo.jpg" alt="logo" class="logo hide"></a>
+          <a href="#"><img src="Image/eng_flag.gif" alt="eng" id="lang-eng"></a>
+        </div>
+        <button type="button" id="collaspe-btn">☰</button>
+      </div>
+
+      <div id="ver-nav">
+        <ul class="header-nav-list">
+          <li class="nav-content"><a href="index.html">TRANG CHỦ</a></li>
+          <li class="nav-content"><a href="sub-content/tintuc.html">TIN TỨC</a></li>
+          <li class="nav-content"><a href="sub-content/thongbao.html">THÔNG BÁO</a></li>
+          <li class="nav-content dropdown">
+            <a href="sub-content/khoahoc.html" class="dropdown-toggle">NGHIÊN CỨU KHOA HỌC</a>
+            <ul class="dropdown-menu">
+              <li><a href="sub-content/khoahoc.html" >Đề Tài Đang Triển Khai</a></li>
+              <li><a href="sub-content/khoahoc.html" >Lý Lịch Khoa Học</a></li>
+              <li><a href="sub-content/khoahoc.html" >Giới Thiệu Chung</a></li>
+              <li><a href="sub-content/khoahoc.html" >Tạp Chí Nghiên Cứu Khoa Học</a></li>
+              <li><a href="sub-content/khoahoc.html" >Công Bố Khoa Học</a></li>
+            </ul>
+          </li>
+          <li class="nav-content dropdown">
+            <a href="sub-content/hoptac.html" class="dropdown-toggle">HỢP TÁC QUỐC TẾ</a>
+            <ul class="dropdown-menu">
+              <li><a href="sub-content/hoptac.html" >Giới Thiệu Chung</a></li>
+              <li><a href="sub-content/hoptac.html" >Hoạt Động Hợp Tác</a></li>
+              <li><a href="sub-content/hoptac.html" >Đối Tác</a></li>
+            </ul>
+          </li>
+          <li class="nav-content dropdown">
+            <a href="" class="dropdown-toggle">HỌC SINH</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Cổng Thông Tin Học Sinh</a></li>
+              <li><a href="#">Sổ Tay Học Sinh</a></li>
+              <li><a href="#">Chính Sách</a></li>
+              <li><a href="#">Hoạt Động</a></li>
+              <li><a href="#">Cựu Học Sinh</a></li>
+              <li><a href="#">Thư Điện Tử</a></li>
+            </ul>
+          </li>
+          <li class="nav-content"><a href="">TUYỂN SINH</a></li>
+          <li class="nav-content"><a href="" data-toggle="modal" data-target="#login">ĐĂNG NHẬP</a></li>
+        </ul>
+      </div>
+
+      <ul class="header-nav-list" id="nav-full">
+        <li class="nav-content"><a href="index.html">TRANG CHỦ</a></li>
+        <li class="nav-content"><a href="sub-content/tintuc.html">TIN TỨC</a></li>
+        <li class="nav-content"><a href="sub-content/thongbao.html">THÔNG BÁO</a></li>
+        <li class="nav-content"><a href="">TUYỂN SINH</a></li>
+        <li class="nav-content dropdown">
+          <a href="" class="dropdown-toggle">HỌC SINH</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Cổng Thông Tin Học Sinh</a></li>
+            <li><a href="#">Sổ Tay Học Sinh</a></li>
+            <li><a href="#">Chính Sách</a></li>
+            <li><a href="#">Hoạt Động</a></li>
+            <li><a href="#">Cựu Học Sinh</a></li>
+            <li><a href="#">Thư Điện Tử</a></li>
+          </ul>
+        </li>
+        <li class="nav-content dropdown">
+          <a href="sub-content/khoahoc.html" class="dropdown-toggle">NGHIÊN CỨU KHOA HỌC</a>
+          <ul class="dropdown-menu">
+            <li><a href="sub-content/khoahoc.html" >Đề Tài Đang Triển Khai</a></li>
+            <li><a href="sub-content/khoahoc.html" >Lý Lịch Khoa Học</a></li>
+            <li><a href="sub-content/khoahoc.html" >Giới Thiệu Chung</a></li>
+            <li><a href="sub-content/khoahoc.html" >Tạp Chí Nghiên Cứu Khoa Học</a></li>
+            <li><a href="sub-content/khoahoc.html" >Công Bố Khoa Học</a></li>
+          </ul>
+        </li>
+        <li class="nav-content dropdown">
+          <a href="sub-content/hoptac.html" class="dropdown-toggle" >HỢP TÁC QUỐC TẾ</a>
+          <ul class="dropdown-menu">
+            <li><a href="sub-content/hoptac.html" >Giới Thiệu Chung</a></li>
+            <li><a href="sub-content/hoptac.html" >Hoạt Động Hợp Tác</a></li>
+            <li><a href="sub-content/hoptac.html" >Đối Tác</a></li>
+          </ul>
+        </li>
+        <li class="nav-content"><a href="" data-toggle="modal" data-target="#login">ĐĂNG NHẬP</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <div id="left-side">
+      <nav id="main-menu">
+        <div id="search-form">
+          <input type="search" id="search-box" placeholder="Google Search">
+          <a href="" id="search-btn" target="_blank" rel="noopener noreferrer"><i class="fas fa-search"></i></a>
+        </div>
+
+        <ul id="menu-nav">
+          <li class="menu-item"><a href="" >Giới Thiệu</a></li>
+          <li class="menu-item"><a href="" >Tài Nguyên Số</a></li>
+          <li class="menu-item"><a href="" >Ba Công Khai</a></li>
+          <li class="menu-item"><a href="" >Lịch Tuần</a></li>
+          <li class="menu-item"><a>Quy Định - Biểu Mẫu <i class="fa fa-caret-down right"></i></a>
+            <ul class="sub-menu">
+              <li><a href="" >Văn Bản Của Trường</a></li>
+              <li><a href="" >Văn Bản Của Bộ</a></li>
+            </ul>
+          </li>
+          <li class="menu-item"><a>Hệ Thống ISO <i class="fa fa-caret-down right"></i></a>
+            <ul class="sub-menu">
+              <li><a href="" >Tra Cứu Điểm Thi</a></li>
+              <li><a href="" >Tra Cứu Thông Tin Cán Bộ</a></li>
+              <li><a href="" >Tra Cứu Tài Liệu Số</a></li>
+              <li><a href="" >Tra Cứu Thư Viện</a></li>
+              <li><a href="" >Tài Nguyên Số</a></li>
+              <li><a href="" >Cổng Vào Tri Thức</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <div class="video">
+          <iframe width="280" height="200" src="https://www.youtube.com/embed/PkohRZE8TDY?si=EY-jSOOt1lwUJhFG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <div class="ads"><img class="left-side-img" src="Image/trongdong.png" alt="Trống Đồng"></div>
+      </nav>
+    </div>
+
+    <div id="right-side">
+      <div id="home">
+        <div id="slide-btn">
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+        <div class="slides">
+          <a href="">
+            <img src="Image/slide1.jpg">
+            <div class="caption-container">
+              <a href="">Thông tin Tuyển sinh trung cấp nghề năm 2024-2025</a>
+            </div>
+          </a>
+        </div>
+        <div class="slides">
+          <a href="">
+            <img src="Image/slide2.jpg">
+            <div class="caption-container">
+              <a href="">Lễ tổng kết năm học 2023-2024</a>
+            </div>
+          </a>
+        </div>
+        <div class="slides">
+          <a href="">
+            <img src="Image/slide3.jpg">
+            <div class="caption-container">
+              <a href="">Trường Trung cấp nghề Bỉm Sơn chào mừng Ngày Nhà giáo Việt Nam 20/11</a>
+            </div>
+          </a>
+        </div>
+        <div class="slides">
+          <a href="">
+            <img src="Image/slide4.jpg">
+            <div class="caption-container">
+              <a href="">Lễ kỉ niệm 10 năm thành lập trường</a>
+            </div>
+          </a>
+        </div>
+        <div class="slides">
+          <a href="">
+            <img src="Image/slide5.png">
+            <div class="caption-container">
+              <a href="">Sinh viên phải xây dựng lối sống độc lập, học tập – nghiên cứu – sáng tạo và kiềm chế
+                , vươn lên
+                và
+                thành công</a>
+            </div>
+          </a>
+        </div>
+      
+        <div id="content-section">
+          <nav id="news-section">
+            <div>
+              <!-- latest news -->
+              <div id="latest-news-header">
+                <span id="latest-news-title">Tin Mới</span>
+                <span id="time"></span>
+              </div>
+              <div id="latest-news">
+                <ul id="column1">
+                  <li class="latest-news-item"><a href="">Thông báo chiêu sinh Lớp Bồi dưỡng theo tiêu
+                      chuẩn chức danh nghề
+                      nghiệp Phương pháp viên hạng IV</a></li>
+                  <li class="latest-news-item"><a href="">Thông báo chiêu sinh Lớp Bồi dưỡng theo tiêu
+                      chuẩn chức danh nghề
+                      nghiệp Phương pháp viên hạng III</a></li>
+                  <li class="latest-news-item"><a href="">Thông báo chiêu sinh Lớp bồi dưỡng theo tiêu
+                      chuẩn chức nghề
+                      nghiệp Phương pháp viên hạng II</a></li>
+                  <li class="latest-news-item"><a href="">Thông báo chiêu sinh Lớp bồi dưỡng theo tiêu
+                      chuẩn chức nghề
+                      nghiệp Hướng dẫn viên văn hóa hạng IV</a></li>
+                </ul>
+                <ul id="column2">
+                  <li class="latest-news-item"><a href="">Thông báo chiêu sinh Lớp bồi dưỡng theo tiêu
+                      chuẩn chức nghề
+                      nghiệp Hướng dẫn viên văn hóa hạng II</a></li>
+                  <li class="latest-news-item"><a href="">Thông báo tiếp tục lùi thời hạn học tập trung
+                      đối với học sinh trong thời gian phòng, chống dịch bệnh viêm đường hô hấp cấp COVID -
+                      19</a></li>
+                  <li class="latest-news-item"><a href="">Hội nghị cán bộ chủ chốt lấy phiếu giới thiệu
+                      nhân sự Đại hội Đảng
+                      bộ Trường Trung cấp nghề Bỉm Sơn lần thứ XX, nhiệm kỳ 2020 – 2025</a></li>
+                  <li class="latest-news-item"><a href="">Thông báo chiêu sinh Lớp bồi dưỡng theo tiêu
+                      chuẩn chức nghề
+                      nghiệp Hướng dẫn viên văn hóa hạng III</a></li>
+                </ul>
+              </div>
+      
+            </div>
+            <!-- news tab -->
+            <div>
+              <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <a class="nav-item nav-link active" href="#nav-news" data-toggle="tab" role="tab">Tin
+                  Tức</a>
+                <a class="nav-item nav-link" href="#nav-highlight" data-toggle="tab" role="tab">Sự kiện</a>
+                <a class="nav-item nav-link" href="#nav-notification" data-toggle="tab" role="tab">Thông
+                  báo</a>
+                <a class="nav-item nav-link" href="#nav-enroll" data-toggle="tab" role="tab">Tuyển Sinh</a>
+                <a class="nav-item nav-link" href="#nav-training" data-toggle="tab" role="tab">Đào tạo</a>
+                <a class="nav-item nav-link" href="#nav-student" data-toggle="tab" role="tab">Sinh viên</a>
+              </div>
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-news" role="tabpanel">
+                  <article class="news-item">
+                    <img src="Image/news-1.jpeg" alt="img">
+                    <a href="">Nhà soạn nhạc Ba Lan lừng danh thế giới Krzysztof Penderecki đã từ
+                      trần</a>
+                  </article>
+                  <article class="news-item">
+                    <img src="Image/news-2.jpg" alt="img">
+                    <a href="">Hội nghị cán bộ chủ chốt lấy phiếu giới thiệu nhân sự Đại hội Đảng bộ
+                      Trung cấp nghề Bỉm Sơn lần thứ XX, nhiệm kỳ 2020 – 2025</a>
+                  </article>
+                  <article class="news-item">
+                    <img src="Image/news-3.jpg" alt="img">
+                    <a href="">Làm việc với Đoàn kiểm tra công tác phòng, chống dịch bệnh Covid-19 của
+                      Trung tâm Kiểm soát
+                      bệnh tật huyện Bỉm Sơn</a>
+                  </article>
+                  <article class="news-item">
+                    <img src="Image/thong-bao.png" alt="img">
+                    <a href="">Hướng Dẫn Đăng Ký, Cài Đặt, Đăng Nhập Và Vào Lớp Học Trên Nền Tảng
+                      Microsoft Office 365</a>
+                  </article>
+                  <a href="sub-content/tintuc.html" class="continue">Xem Thêm >></a>
+                </div>
+      
+                <div class="tab-pane fade" id="nav-highlight" role="tabpanel">
+                  <article class="news-item">
+                    <img src="Image/highlight1.jpg" alt="img">
+                    <a href="">Ban Giám Hiệu Nhà Trường Chúc Tết Cán Bộ, Viên Chức Và Cán Bộ Hưu Trí</a>
+                  </article>
+                  <article class="news-item">
+                    <img src="Image/highlight2.jpg" alt="img">
+                    <a href="">Đại Hội Đại Biểu Đoàn Tncs Hồ Chí Minh Trường Trung Cấp Nghề Bỉm Sơn Lần
+                      Thứ 26, Nhiệm Kỳ
+                      2019
+                      - 2022</a>
+                  </article>
+                  <article class="news-item">
+                    <img src="Image/highlight3.jpg" alt="img">
+                    <a href="">Trường Trung cấp nghề Bỉm Sơn chào mừng Ngày Nhà giáo Việt Nam 20/11</a>
+                  </article>
+                  <article class="news-item">
+                    <img src="Image/highlight4.jpg" alt="img">
+                    <a href="">Hội Diễn 20/11/2019: Đêm Thăng Hoa Của Những Nghệ Sĩ “Không Chuyên”</a>
+                  </article>
+                  <a href="sub-content/tintuc.html" class="continue">Xem Thêm >></a>
+                </div>
+      
+                <div class="tab-pane fade" id="nav-notification" role="tabpanel">
+                  <article class="news-item">
+                    <img src="Image/thong-bao.png" alt="img">
+                    <a href="">Thông Báo Chiêu Sinh Lớp Bồi Dưỡng Theo Tiêu Chuẩn Chức Danh Nghề Nghiệp
+                      Phương Pháp Viên
+                      Hạng
+                      IV</a>
+                  </article>
+                  <article class="news-item">
+                    <img src="Image/thong-bao.png" alt="img">
+                    <a href="">Thông Báo Chiêu Sinh Lớp Bồi Dưỡng Theo Tiêu Chuẩn Chức Danh Nghề Nghiệp
+                      Phương Pháp Viên
+                      Hạng
+                      III</a>
+                  </article>
+                  <article class="news-item">
+                    <img src="Image/thong-bao.png" alt="img">
+                    <a href="">Thông Báo Chiêu Sinh Lớp Bồi Dưỡng Theo Tiêu Chuẩn Chức Danh Nghề Nghiệp
+                      Phương Pháp Viên
+                      Hạng
+                      II</a>
+                  </article>
+                  <article class="news-item">
+                    <img src="Image/thong-bao.png" alt="img">
+                    <a href="">Thông Báo Chiêu Sinh Lớp Bồi Dưỡng Theo Tiêu Chuẩn Chức Danh Nghề Nghiệp
+                      Phương Pháp Viên
+                      Hạng
+                      I</a>
+                  </article>
+                  <a href="sub-content/thongbao.html.html" class="continue">Xem Thêm >></a>
+                </div>
+      
+                <div class="tab-pane fade" id="nav-enroll" role="tabpanel">
+                  <article class="news-item">
+                    <img src="Image/enroll1.jpg" alt="img">
+                    <a href="">Dự kiến Thông tin Tuyển sinh trung cấp nghề năm 2024-2025</a>
+                  </article>
+                  <article class="news-item">
+                    <img src="Image/thong-bao.png" alt="img">
+                    <a href="">Thông báo chiêu sinh Lớp bồi dưỡng theo tiêu chuẩn chức danh Thư viện
+                      viên hạng III</a>
+                  </article>
+                  <article class="news-item">
+                    <img src="Image/thong-bao.png" alt="img">
+                    <a href="">Thông báo chiêu sinh Lớp bồi dưỡng theo tiêu chuẩn chức danh Thư viện
+                      viên hạng II</a>
+                  </article>
+                  <article class="news-item">
+                    <img src="Image/thong-bao.png" alt="img">
+                    <a href="">Thông báo chiêu sinh Lớp Bồi dưỡng theo tiêu chuẩn chức danh Di sản viên
+                      hạng III</a>
+                  </article>
+                  <a href="sub-content/tintuc.html" class="continue">Xem Thêm >></a>
+                </div>
+      
+                <div class="tab-pane fade" id="nav-training" role="tabpanel">
+                  <article class="news-item">
+                    <img src="Image/training1.png" alt="img">
+                    <a href="">Thông báo Tuyển sinh trình độ trung cấp hình thức vừa làm vừa học năm 2024-2025</a>
+                  </article>
+                  <article class="news-item">
+                    <img src="Image/training2.jpg" alt="img">
+                    <a href="">Thông báo trả bằng cho học sinh tốt nghiệp đợt
+                      tháng 05 năm 2024</a>
+                  </article>
+                  <article class="news-item">
+                    <img src="Image/training3.jpg" alt="img">
+                    <a href="">Danh sách học sinh tốt nghiệp Đợt tháng 5 năm 2024</a>
+                  </article>
+                  <article class="news-item">
+                    <img src="Image/training4.jpg" alt="img">
+                    <a href="">Danh sách lớp môn Tiếng Anh ôn tập 12A</a>
+                  </article>
+                  <a href="" class="continue">Xem Thêm >></a>
+                </div>
+      
+                <div class="tab-pane fade" id="nav-student" role="tabpanel">
+                  <article class="news-item">
+                    <img src="Image/student2.jpg" alt="img">
+                    <a href="">Thông Báo Về Việc Thu Hồ Sơ Chế Độ Chính Sách Của Học Sinh Học Kỳ 2 Năm
+                      Học 2023-2024</a>
+                  </article>
+                  <article class="news-item">
+                    <img src="Image/student3.png" alt="img">
+                    <a href="">Quy Tắc Ứng Xử Văn Hóa Của Học Sinh Trường Trung Cấp Nghề Bỉm Sơn</a>
+                  </article>
+                  <article class="news-item">
+                    <img src="Image/student4.jpg" alt="img">
+                    <a href="">Cẩm Nang Hỏi – Đáp Thông Tin Về Bệnh Viêm Đường Hô Hấp Cấp Do Chủng Mới
+                      Vi Rút Corona
+                      (Ncov-19)</a>
+                  </article>
+                  <a href="sub-content/tintuc.html" class="continue">Xem Thêm >></a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer id="footer">
+    <p id="uni-name">© 2024 - Trường Trung Cấp Nghề Bỉm Sơn - Bim Son Vocational Training School</p>
+    <div id="footer-content">
+      <div id="address">
+        <h3 class="footer-content-header">Địa Chỉ</h3>
+        <div>
+          <div>
+            <ul>
+              <li><address><i class="fas fa-map-marked-alt"></i> 4217 Trần Phú, P. Lam Sơn, Bỉm Sơn, Thanh Hoá 40750</address></li>
+              <li>
+            <a href="mailto:tuyensinh@trungcapnghebimsoneduvn.com"><i class="far fa-envelope"></i> tuyensinh@trungcapnghebimsoneduvn.com</a>
+              </li>
+              <li>
+            <a href="tel:+842373825436"><i class="fas fa-phone"></i> (+84) 237.3825.436</a>
+              </li>
+              <li>
+            <a href="tel:+842373825436"><i class="fas fa-fax"></i> (+84) 237.3825.436</a>
+              </li>
+            </ul>
+            <hr width="100%">
+            <div class="footer-menu">
+              <div>
+                <a href="sub-content/diemnhan.html">ĐIỂM NHẤN</a>
+                <a href="">TRA CỨU THƯ VIỆN</a>
+                
+              </div>
+              <div>
+                <a href="">GALLERY</a>
+                <a href="">CƠ CẤU TỔ CHỨC</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <form id="contact">
+        <h3 class="footer-content-header">Liên Hệ</h3>
+        <div>
+          <div>
+            <input type="text" name="name" id="contact-name" placeholder="Họ Tên">
+            <input type="email" name="email" id="contact-email" placeholder="Email">
+            <input type="number" name="phone" id="contact-phone" placeholder="Điện Thoại">
+          </div>
+          <textarea name="content" id="contact-content" cols="25" rows="7" placeholder="Nội Dung"></textarea>
+        </div>
+        <button type="submit">Liên Hệ Ngay</button>
+      </form>
+    </div>
+    <div id="visited">
+      <p>Online: 4</p>
+      <p>Lượt truy cập: 1.905.534</p>
+    </div>
+  </footer>
+
+  <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="LoginModel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title">Đăng Nhập</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <input type="email" name="email" id="login-email" placeholder="Nhập địa chỉ email" required>
+            <input type="password" name="password" id="login-password" placeholder="Nhập mật khẩu" required>
+            <input type="checkbox" name="remember" id="login-remember"><label for="login-remember">Ghi Nhớ?</label>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-signup" data-toggle="modal" data-target="#signup" data-dismiss="modal">Đăng Ký</button>
+          <button type="button" class="btn btn-login">Đăng Nhập</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="signup" tabindex="-1" role="dialog" aria-labelledby="SignupModel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title">Đăng Ký</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <input type="email" name="email" id="signup-email" placeholder="Nhập địa chỉ email" required>
+            <input type="email" name="re-email" id="signup-re-email" placeholder="Nhập lại địa chỉ email" required>
+            <input type="password" name="password" id="signup-password" placeholder="Nhập mật khẩu" required>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-signup">Đăng Ký</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="social">
+    <a href="#header"><img class="sticky-btn up" src="Image/chevron-up.png" alt="Header"></a>
+    <a href="https://www.facebook.com/TCNBS1959/" target="_blank" rel="noopener noreferrer"><img class="sticky-btn fb" src="Image/facebook.png" alt="facebook" ></a>
+    <a href="https://www.youtube.com/@TrungCapNgheBimSon" target="_blank" rel="noopener noreferrer"><img class="sticky-btn yt" src="Image/youtube.png" alt="youtube"></a>
+    <a href="#visited"><img class="sticky-btn down" src="Image/chevron-down.png" alt="Footer"></a>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <script defer src="lib/jquery-3.4.1.min.js"></script>
+  <script async src="javascript.js"></script>
+  <script defer src="lib/boostrap/bootstrap.min.js"></script>
+  <script defer src="lib/font awesome/all.min.js"></script>
+
+</body>
+
+</html>
